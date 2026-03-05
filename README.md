@@ -39,6 +39,97 @@ The system is pre-configured for these seminal papers:
 
 ## 🏗️ Project Structure
 
+```
+rag-qa-system/               # Root project folder
+│
+├── data/                    # All data files
+│   ├── processed/           # Processed chunks (saved after preprocessing)
+│   └── raw/                 # Original PDF research papers
+│       ├── 1706.03762v7.pdf     # "Attention Is All You Need" (Transformer)
+│       ├── 2005.11401v4.pdf     # RAG paper
+│       └── 2005.14165v4.pdf     # GPT-3 paper
+│
+├── models/                  # Saved models and vector indices
+│   └── faiss_index/
+│       ├── index.faiss      # FAISS vector index
+│       └── index.pkl        # Metadata associated with the index
+│
+├── notebooks/               # Jupyter notebooks for exploration & testing
+│   ├── 01_exploratory_analysis.ipynb
+│   ├── 02_retrieval_testing.ipynb
+│   └── 03_results_visualization.ipynb
+│
+├── outputs/                 # Generated outputs
+│   ├── answers/             # Final answers for each query
+│   │   ├── answer_1.txt
+│   │   ├── answer_2.txt
+│   │   ├── answer_3.txt
+│   │   ├── answer_4.txt
+│   │   ├── answer_5.txt
+│   │   ├── answer_6.txt
+│   │   ├── answer_7.txt
+│   │   └── answer_8.txt
+│   │
+│   ├── logs/                # Execution logs
+│   │   └── pipeline.log
+│   │
+│   └── results/             # Evaluation results (JSON, plots)
+│
+├── src/                     # Source code (organized by pipeline phase)
+│   │
+│   ├── phase1_preprocessing/        # Phase 1: Document preprocessing
+│   │   ├── __init__.py
+│   │   ├── document_loader.py       # Load PDFs and extract text
+│   │   ├── embedding_generator.py   # Generate embeddings
+│   │   └── text_splitter.py         # Split documents into chunks
+│   │
+│   ├── phase2_retrieval/            # Phase 2: Retrieval system
+│   │   ├── __init__.py
+│   │   ├── hybrid_search.py         # Optional BM25 + dense hybrid search
+│   │   ├── retriever.py             # Core retrieval logic
+│   │   └── vector_store.py          # FAISS vector store management
+│   │
+│   ├── phase3_generation/           # Phase 3: Answer generation
+│   │   ├── __init__.py
+│   │   ├── answer_formatter.py      # Format answers with citations
+│   │   ├── llm_integration.py       # Google Gemini API integration
+│   │   └── prompt_templates.py      # Prompt templates
+│   │
+│   ├── phase4_evaluation/           # Phase 4: Evaluation
+│   │   ├── __init__.py
+│   │   ├── metrics.py               # Retrieval & generation metrics
+│   │   ├── results_analyzer.py      # Analyze and visualize results
+│   │   └── test_queries.py          # Sample evaluation queries
+│   │
+│   └── utils/                       # Utility modules
+│       ├── __init__.py
+│       ├── config.py                # Configuration management
+│       ├── file_utils.py            # File I/O helpers
+│       └── visualization.py         # Plotting utilities
+│
+├── tests/                   # Unit tests
+│   ├── test_generation.py
+│   ├── test_preprocessing.py
+│   └── test_retrieval.py
+│
+├── .dockerignore            # Files ignored during Docker build
+├── .env                     # Local environment variables (not committed)
+├── .env.example             # Example environment variables
+├── .gitignore               # Git ignore rules
+│
+├── check_models.py          # Script to list available Gemini models
+├── cleanup.bat              # Windows script to clean FAISS index
+├── docker-compose.yml       # Docker Compose configuration
+├── Dockerfile               # Docker image definition
+├── fix_init_files.py        # Helper to fix missing __init__ exports
+│
+├── README.md                # Project documentation
+├── requirements.txt         # Python dependencies
+│
+├── run_pipeline.py          # Main entry point for the RAG pipeline
+└── test_gemini_working.py   # Script to verify Gemini API connection
+```
+
 ---
 
 ## 🚀 Quick Start
