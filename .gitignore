@@ -1,0 +1,165 @@
+
+# .gitignore
+
+```gitignore
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+venv.bak/
+venv-old/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+*.py,cover
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Model files
+models/faiss_index/
+!models/faiss_index/.gitkeep
+
+# Data files
+data/raw/*.pdf
+!data/raw/.gitkeep
+data/processed/
+!data/processed/.gitkeep
+
+# Outputs
+outputs/answers/
+!outputs/answers/.gitkeep
+outputs/logs/
+!outputs/logs/.gitkeep
+outputs/results/
+!outputs/results/.gitkeep
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+notebooks/.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.vscode/settings.json
+.idea/workspace.xml
+
+# Logs
+*.log
+pipeline.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Docker
+.dockerignore
+Dockerfile
+docker-compose.yml
+*.pid
+
+# Backup files
+*.bak
+*.backup
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# pyenv
+.python-version
+
+# celery beat schedule
+celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Yarn
+yarn.lock
+package-lock.json
+
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Local History
+.history/
