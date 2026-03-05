@@ -35,7 +35,6 @@ models/faiss_index/
 !models/faiss_index/.gitkeep
 
 # Data files
-data/raw/*.pdf
 !data/raw/.gitkeep
 data/processed/
 !data/processed/.gitkeep
