@@ -169,9 +169,46 @@ cp .env.example .env
 ```
 
 5. **Add PDF files**
-Place your research papers in `data/raw/`:
+Place your research papers in `data/raw/` use the followinvg options to download and extract them or else skip this step download by using the following command and add manually in the `data/raw/` folder:
 
-> And there are three inbuilt pdf files are there.
+```
+| Paper       |Title of the file                                                   | Filename           | PDF Download Link                                  |
+|-------------|--------------------------------------------------------------------|--------------------|----------------------------------------------------|
+| Transformer | *Attention Is All You Need*                                        | `1706.03762v7.pdf` | [Download](https://arxiv.org/pdf/1706.03762v7.pdf) |
+| RAG         | *Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks* | `2005.11401v4.pdf` | [Download](https://arxiv.org/pdf/2005.11401v4.pdf) |
+| GPT-3       | *Language Models are Few-Shot Learners*                            | `2005.14165v4.pdf` | [Download](https://arxiv.org/pdf/2005.14165v4.pdf) |
+```
+
+**Download Research Papers**
+
+Run the download script to automatically get all required papers:
+
+### Option 1: Python Script (All Platforms)
+```bash
+# Install requests if you haven't
+pip install requests
+
+# Run download script
+python download_papers.py
+```
+
+### Option 2: Windows Batch Script
+```bash
+# Run download script
+download_papers.bat
+```
+**`or`**
+```bash
+# Run download script
+.\download_papers.bat
+```
+
+### Option 3: Linux/Mac Shell Script
+```bash
+# Run download script
+chmod +x download_papers.sh
+./download_papers.sh
+```
 
 6. **Run the pipeline**
 ```bash
