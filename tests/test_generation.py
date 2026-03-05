@@ -1,7 +1,11 @@
 """Tests for generation phase"""
 
-import unittest
+import sys
+import os
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 from src.phase3_generation.prompt_templates import PromptTemplates
+import unittest
 
 class TestGeneration(unittest.TestCase):
     

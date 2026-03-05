@@ -1,7 +1,10 @@
 """Tests for preprocessing phase"""
 
-import unittest
+import sys
 import os
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
+import unittest
 import tempfile
 from src.phase1_preprocessing.document_loader import PDFLoader
 from src.phase1_preprocessing.text_splitter import DocumentChunker
