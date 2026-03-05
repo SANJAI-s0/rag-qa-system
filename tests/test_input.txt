@@ -1,0 +1,5 @@
+What is the Transformer architecture?
+Explain attention mechanism
+What are the benefits of multi-head attention?
+How large is GPT-3?
+quit
