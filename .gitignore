@@ -40,13 +40,13 @@ data/raw/*.pdf
 data/processed/
 !data/processed/.gitkeep
 
-# Outputs
-outputs/answers/
-!outputs/answers/.gitkeep
-outputs/logs/
-!outputs/logs/.gitkeep
-outputs/results/
-!outputs/results/.gitkeep
+# # Outputs
+# outputs/answers/
+# !outputs/answers/.gitkeep
+# outputs/logs/
+# !outputs/logs/.gitkeep
+# outputs/results/
+# !outputs/results/.gitkeep
 
 # Jupyter notebooks
 .ipynb_checkpoints/
@@ -76,11 +76,15 @@ pipeline.log
 ehthumbs.db
 Thumbs.db
 
-# Docker
-.dockerignore
-Dockerfile
-docker-compose.yml
+# Docker - but we want to track these files
+# Dockerfile
+# docker-compose.yml
+# .dockerignore
+
+# Or better, keep them but don't ignore:
+# Docker temporary files
 *.pid
+.docker-volumes/
 
 # Backup files
 *.bak
