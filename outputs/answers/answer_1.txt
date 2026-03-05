@@ -1,0 +1,19 @@
+Query: What are the main components of a RAG model, and how do they interact?
+================================================================================
+
+Answer: A RAG model consists of two main components: 1. A mechanism that provides distributions.
+
+**Sources:**
+- 2005.11401v4, page 10
+- 2005.11401v4, page 17
+- 2005.11401v4, page 6
+- 2005.11401v4, page 2
+
+*Confidence: High confidence*
+
+================================================================================
+Sources:
+- 2005.11401v4.pdf (page 10, relevance: 0.578)
+- 2005.11401v4.pdf (page 17, relevance: 0.628)
+- 2005.11401v4.pdf (page 6, relevance: 0.967)
+- 2005.11401v4.pdf (page 2, relevance: 1.074)

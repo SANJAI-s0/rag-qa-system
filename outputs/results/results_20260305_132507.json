@@ -1,0 +1,267 @@
+{
+  "results": [
+    {
+      "query": "What are the main components of a RAG model, and how do they interact?",
+      "answer": "Error generating answer: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n\n**Sources:**\n- 2005.11401v4, page 10\n- 2005.11401v4, page 17\n- 2005.11401v4, page 6\n- 2005.11401v4, page 2\n\n*Confidence: High confidence*",
+      "sources": [
+        {
+          "paper": "2005.11401v4.pdf",
+          "page": 10,
+          "relevance": 0.5784300565719604
+        },
+        {
+          "paper": "2005.11401v4.pdf",
+          "page": 17,
+          "relevance": 0.6281136274337769
+        },
+        {
+          "paper": "2005.11401v4.pdf",
+          "page": 6,
+          "relevance": 0.9670319557189941
+        },
+        {
+          "paper": "2005.11401v4.pdf",
+          "page": 2,
+          "relevance": 1.0739550590515137
+        }
+      ],
+      "retrieved_count": 5,
+      "retrieval_time": 0.1028296947479248,
+      "generation_time": 0.9191765785217285,
+      "timestamp": "2026-03-05T13:24:46.664246",
+      "category": "rag",
+      "source_accuracy": 1.0
+    },
+    {
+      "query": "What are the two sub-layers in each encoder layer of the Transformer model?",
+      "answer": "Error generating answer: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n\n**Sources:**\n- 1706.03762v7, page 3\n- 1706.03762v7, page 6\n- 1706.03762v7, page 2\n\n*Confidence: High confidence*",
+      "sources": [
+        {
+          "paper": "1706.03762v7.pdf",
+          "page": 3,
+          "relevance": 0.5500519871711731
+        },
+        {
+          "paper": "1706.03762v7.pdf",
+          "page": 6,
+          "relevance": 0.9555382132530212
+        },
+        {
+          "paper": "1706.03762v7.pdf",
+          "page": 2,
+          "relevance": 1.0200936794281006
+        }
+      ],
+      "retrieved_count": 5,
+      "retrieval_time": 0.06529474258422852,
+      "generation_time": 0.8457884788513184,
+      "timestamp": "2026-03-05T13:24:47.592738",
+      "category": "transformer",
+      "source_accuracy": 1.0
+    },
+    {
+      "query": "Explain how positional encoding is implemented in Transformers and why it is necessary.",
+      "answer": "Error generating answer: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n\n**Sources:**\n- 1706.03762v7, page 6\n- 1706.03762v7, page 2\n- 1706.03762v7, page 3\n- 1706.03762v7, page 1\n\n*Confidence: High confidence*",
+      "sources": [
+        {
+          "paper": "1706.03762v7.pdf",
+          "page": 6,
+          "relevance": 0.8055300712585449
+        },
+        {
+          "paper": "1706.03762v7.pdf",
+          "page": 2,
+          "relevance": 0.814185380935669
+        },
+        {
+          "paper": "1706.03762v7.pdf",
+          "page": 3,
+          "relevance": 0.8838992118835449
+        },
+        {
+          "paper": "1706.03762v7.pdf",
+          "page": 1,
+          "relevance": 0.9950461387634277
+        }
+      ],
+      "retrieved_count": 5,
+      "retrieval_time": 0.25763630867004395,
+      "generation_time": 0.6123631000518799,
+      "timestamp": "2026-03-05T13:24:48.501869",
+      "category": "transformer",
+      "source_accuracy": 1.0
+    },
+    {
+      "query": "Describe the concept of multi-head attention in the Transformer architecture. Why is it beneficial?",
+      "answer": "Error generating answer: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n\n**Sources:**\n- 1706.03762v7, page 5\n- 1706.03762v7, page 3\n- 1706.03762v7, page 1\n- 1706.03762v7, page 2\n- 1706.03762v7, page 15\n\n*Confidence: Medium confidence*",
+      "sources": [
+        {
+          "paper": "1706.03762v7.pdf",
+          "page": 5,
+          "relevance": 0.48449695110321045
+        },
+        {
+          "paper": "1706.03762v7.pdf",
+          "page": 3,
+          "relevance": 0.6502159833908081
+        },
+        {
+          "paper": "1706.03762v7.pdf",
+          "page": 1,
+          "relevance": 0.7993738651275635
+        },
+        {
+          "paper": "1706.03762v7.pdf",
+          "page": 2,
+          "relevance": 0.8014456629753113
+        },
+        {
+          "paper": "1706.03762v7.pdf",
+          "page": 15,
+          "relevance": 0.8589418530464172
+        }
+      ],
+      "retrieved_count": 5,
+      "retrieval_time": 0.045891761779785156,
+      "generation_time": 0.1613771915435791,
+      "timestamp": "2026-03-05T13:24:48.712128",
+      "category": "transformer",
+      "source_accuracy": 1.0
+    },
+    {
+      "query": "What is few-shot learning, and how does GPT-3 implement it during inference?",
+      "answer": "Error generating answer: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n\n**Sources:**\n- 2005.14165v4, page 34\n- 2005.14165v4, page 6\n- 2005.14165v4, page 5\n\n*Confidence: Low confidence - answer may be incomplete*",
+      "sources": [
+        {
+          "paper": "2005.14165v4.pdf",
+          "page": 34,
+          "relevance": 0.5022072792053223
+        },
+        {
+          "paper": "2005.14165v4.pdf",
+          "page": 6,
+          "relevance": 0.6225754022598267
+        },
+        {
+          "paper": "2005.14165v4.pdf",
+          "page": 5,
+          "relevance": 0.6280388832092285
+        }
+      ],
+      "retrieved_count": 5,
+      "retrieval_time": 0.03331255912780762,
+      "generation_time": 0.33195018768310547,
+      "timestamp": "2026-03-05T13:24:49.085344",
+      "category": "gpt3",
+      "source_accuracy": 1.0
+    },
+    {
+      "query": "What is the size of GPT-3 in terms of parameters?",
+      "answer": "Error generating answer: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n\n**Sources:**\n- 2005.14165v4, page 6\n- 2005.14165v4, page 23\n- 2005.14165v4, page 34\n- 2005.14165v4, page 9\n- 2005.14165v4, page 26\n\n*Confidence: High confidence*",
+      "sources": [
+        {
+          "paper": "2005.14165v4.pdf",
+          "page": 6,
+          "relevance": 0.9233452081680298
+        },
+        {
+          "paper": "2005.14165v4.pdf",
+          "page": 23,
+          "relevance": 0.9390594959259033
+        },
+        {
+          "paper": "2005.14165v4.pdf",
+          "page": 34,
+          "relevance": 0.9697232246398926
+        },
+        {
+          "paper": "2005.14165v4.pdf",
+          "page": 9,
+          "relevance": 0.9883447289466858
+        },
+        {
+          "paper": "2005.14165v4.pdf",
+          "page": 26,
+          "relevance": 0.9965903162956238
+        }
+      ],
+      "retrieved_count": 5,
+      "retrieval_time": 0.05867719650268555,
+      "generation_time": 0.16556262969970703,
+      "timestamp": "2026-03-05T13:24:49.313227",
+      "category": "gpt3",
+      "source_accuracy": 1.0
+    },
+    {
+      "query": "How does the retriever in RAG models work?",
+      "answer": "Error generating answer: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n\n**Sources:**\n- 2005.11401v4, page 10\n- 2005.11401v4, page 17\n- 2005.11401v4, page 19\n- 2005.11401v4, page 3\n- 2005.11401v4, page 5\n\n*Confidence: High confidence*",
+      "sources": [
+        {
+          "paper": "2005.11401v4.pdf",
+          "page": 10,
+          "relevance": 0.8038520812988281
+        },
+        {
+          "paper": "2005.11401v4.pdf",
+          "page": 17,
+          "relevance": 0.8048795461654663
+        },
+        {
+          "paper": "2005.11401v4.pdf",
+          "page": 19,
+          "relevance": 0.8144474625587463
+        },
+        {
+          "paper": "2005.11401v4.pdf",
+          "page": 3,
+          "relevance": 0.8967996835708618
+        },
+        {
+          "paper": "2005.11401v4.pdf",
+          "page": 5,
+          "relevance": 0.9121987223625183
+        }
+      ],
+      "retrieved_count": 5,
+      "retrieval_time": 0.03348350524902344,
+      "generation_time": 0.17671704292297363,
+      "timestamp": "2026-03-05T13:24:49.527435",
+      "category": "rag",
+      "source_accuracy": 1.0
+    },
+    {
+      "query": "What is the role of the decoder in the Transformer architecture?",
+      "answer": "Error generating answer: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n\n**Sources:**\n- 1706.03762v7, page 3\n- 1706.03762v7, page 2\n- 1706.03762v7, page 1\n\n*Confidence: High confidence*",
+      "sources": [
+        {
+          "paper": "1706.03762v7.pdf",
+          "page": 3,
+          "relevance": 0.7123681902885437
+        },
+        {
+          "paper": "1706.03762v7.pdf",
+          "page": 2,
+          "relevance": 0.8101268410682678
+        },
+        {
+          "paper": "1706.03762v7.pdf",
+          "page": 1,
+          "relevance": 1.02900230884552
+        }
+      ],
+      "retrieved_count": 5,
+      "retrieval_time": 0.06316828727722168,
+      "generation_time": 0.1862022876739502,
+      "timestamp": "2026-03-05T13:24:49.784442",
+      "category": "transformer",
+      "source_accuracy": 1.0
+    }
+  ],
+  "summary": {
+    "total_queries": 8,
+    "average_retrieval_time": 0.08253675699234009,
+    "average_generation_time": 0.4248921871185303,
+    "source_accuracy": 1.0,
+    "avg_retrieved_docs": null
+  }
+}

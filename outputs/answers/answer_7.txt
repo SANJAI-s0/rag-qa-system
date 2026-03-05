@@ -1,0 +1,21 @@
+Query: How does the retriever in RAG models work?
+================================================================================
+
+Answer: The retriever component `p(z|x)` in RAG models is based on DPR (Dense Passage Retrieval) [26] and follows a bi-encoder architecture (Document 4, Page 3). Specifically, it works as follows: 1. It uses a bi-encoder architecture where `d(z)` represents the embedding of a document `z` and `q(x)` represents the.
+
+**Sources:**
+- 2005.11401v4, page 10
+- 2005.11401v4, page 17
+- 2005.11401v4, page 19
+- 2005.11401v4, page 3
+- 2005.11401v4, page 5
+
+*Confidence: High confidence*
+
+================================================================================
+Sources:
+- 2005.11401v4.pdf (page 10, relevance: 0.804)
+- 2005.11401v4.pdf (page 17, relevance: 0.805)
+- 2005.11401v4.pdf (page 19, relevance: 0.814)
+- 2005.11401v4.pdf (page 3, relevance: 0.897)
+- 2005.11401v4.pdf (page 5, relevance: 0.912)

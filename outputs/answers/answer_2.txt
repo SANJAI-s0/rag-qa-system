@@ -1,0 +1,17 @@
+Query: What are the two sub-layers in each encoder layer of the Transformer model?
+================================================================================
+
+Answer: Each encoder layer in the Transformer model has two sub-layers: 1. A multi-head self-attention mechanism. 2. A simple, position-wise fully connected feed-forward network. (Document 1, Page 3).
+
+**Sources:**
+- 1706.03762v7, page 3
+- 1706.03762v7, page 6
+- 1706.03762v7, page 2
+
+*Confidence: High confidence*
+
+================================================================================
+Sources:
+- 1706.03762v7.pdf (page 3, relevance: 0.550)
+- 1706.03762v7.pdf (page 6, relevance: 0.956)
+- 1706.03762v7.pdf (page 2, relevance: 1.020)

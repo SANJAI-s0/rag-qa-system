@@ -1,0 +1,267 @@
+{
+  "results": [
+    {
+      "query": "What are the main components of a RAG model, and how do they interact?",
+      "answer": "A RAG model consists of two main components: 1. A mechanism that provides distributions.\n\n**Sources:**\n- 2005.11401v4, page 10\n- 2005.11401v4, page 17\n- 2005.11401v4, page 6\n- 2005.11401v4, page 2\n\n*Confidence: High confidence*",
+      "sources": [
+        {
+          "paper": "2005.11401v4.pdf",
+          "page": 10,
+          "relevance": 0.5784300565719604
+        },
+        {
+          "paper": "2005.11401v4.pdf",
+          "page": 17,
+          "relevance": 0.6281136274337769
+        },
+        {
+          "paper": "2005.11401v4.pdf",
+          "page": 6,
+          "relevance": 0.9670319557189941
+        },
+        {
+          "paper": "2005.11401v4.pdf",
+          "page": 2,
+          "relevance": 1.0739550590515137
+        }
+      ],
+      "retrieved_count": 5,
+      "retrieval_time": 0.22583866119384766,
+      "generation_time": 3.104423761367798,
+      "timestamp": "2026-03-05T15:49:53.667754",
+      "category": "rag",
+      "source_accuracy": 1.0
+    },
+    {
+      "query": "What are the two sub-layers in each encoder layer of the Transformer model?",
+      "answer": "Each encoder layer in the Transformer model has two sub-layers: 1. A multi-head self-attention mechanism. 2. A simple, position-wise fully connected feed-forward network. (Document 1, Page 3).\n\n**Sources:**\n- 1706.03762v7, page 3\n- 1706.03762v7, page 6\n- 1706.03762v7, page 2\n\n*Confidence: High confidence*",
+      "sources": [
+        {
+          "paper": "1706.03762v7.pdf",
+          "page": 3,
+          "relevance": 0.5500519871711731
+        },
+        {
+          "paper": "1706.03762v7.pdf",
+          "page": 6,
+          "relevance": 0.9555382132530212
+        },
+        {
+          "paper": "1706.03762v7.pdf",
+          "page": 2,
+          "relevance": 1.0200936794281006
+        }
+      ],
+      "retrieved_count": 5,
+      "retrieval_time": 0.022331953048706055,
+      "generation_time": 1.7655417919158936,
+      "timestamp": "2026-03-05T15:49:57.235651",
+      "category": "transformer",
+      "source_accuracy": 1.0
+    },
+    {
+      "query": "Explain how positional encoding is implemented in Transformers and why it is necessary.",
+      "answer": "Error generating answer: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 3.499683403s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '3s'}]}}.\n\n**Sources:**\n- 1706.03762v7, page 6\n- 1706.03762v7, page 2\n- 1706.03762v7, page 3\n- 1706.03762v7, page 1\n\n*Confidence: High confidence*",
+      "sources": [
+        {
+          "paper": "1706.03762v7.pdf",
+          "page": 6,
+          "relevance": 0.8055300712585449
+        },
+        {
+          "paper": "1706.03762v7.pdf",
+          "page": 2,
+          "relevance": 0.814185380935669
+        },
+        {
+          "paper": "1706.03762v7.pdf",
+          "page": 3,
+          "relevance": 0.8838992118835449
+        },
+        {
+          "paper": "1706.03762v7.pdf",
+          "page": 1,
+          "relevance": 0.9950461387634277
+        }
+      ],
+      "retrieved_count": 5,
+      "retrieval_time": 0.029001474380493164,
+      "generation_time": 0.38568878173828125,
+      "timestamp": "2026-03-05T15:49:59.446132",
+      "category": "transformer",
+      "source_accuracy": 1.0
+    },
+    {
+      "query": "Describe the concept of multi-head attention in the Transformer architecture. Why is it beneficial?",
+      "answer": "Error generating answer: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 59.595296581s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '59s'}]}}.\n\n**Sources:**\n- 1706.03762v7, page 5\n- 1706.03762v7, page 3\n- 1706.03762v7, page 1\n- 1706.03762v7, page 2\n- 1706.03762v7, page 15\n\n*Confidence: Medium confidence*",
+      "sources": [
+        {
+          "paper": "1706.03762v7.pdf",
+          "page": 5,
+          "relevance": 0.48449695110321045
+        },
+        {
+          "paper": "1706.03762v7.pdf",
+          "page": 3,
+          "relevance": 0.6502159833908081
+        },
+        {
+          "paper": "1706.03762v7.pdf",
+          "page": 1,
+          "relevance": 0.7993738651275635
+        },
+        {
+          "paper": "1706.03762v7.pdf",
+          "page": 2,
+          "relevance": 0.8014456629753113
+        },
+        {
+          "paper": "1706.03762v7.pdf",
+          "page": 15,
+          "relevance": 0.8589418530464172
+        }
+      ],
+      "retrieved_count": 5,
+      "retrieval_time": 0.026279687881469727,
+      "generation_time": 0.3715810775756836,
+      "timestamp": "2026-03-05T15:50:03.342919",
+      "category": "transformer",
+      "source_accuracy": 1.0
+    },
+    {
+      "query": "What is few-shot learning, and how does GPT-3 implement it during inference?",
+      "answer": "Error generating answer: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 55.71521215s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '55s'}]}}.\n\n**Sources:**\n- 2005.14165v4, page 34\n- 2005.14165v4, page 6\n- 2005.14165v4, page 5\n\n*Confidence: Low confidence - answer may be incomplete*",
+      "sources": [
+        {
+          "paper": "2005.14165v4.pdf",
+          "page": 34,
+          "relevance": 0.5022072792053223
+        },
+        {
+          "paper": "2005.14165v4.pdf",
+          "page": 6,
+          "relevance": 0.6225754022598267
+        },
+        {
+          "paper": "2005.14165v4.pdf",
+          "page": 5,
+          "relevance": 0.6280388832092285
+        }
+      ],
+      "retrieved_count": 5,
+      "retrieval_time": 0.05156230926513672,
+      "generation_time": 0.38634371757507324,
+      "timestamp": "2026-03-05T15:50:07.223209",
+      "category": "gpt3",
+      "source_accuracy": 1.0
+    },
+    {
+      "query": "What is the size of GPT-3 in terms of parameters?",
+      "answer": "Error generating answer: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 51.890480216s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '51s'}]}}.\n\n**Sources:**\n- 2005.14165v4, page 6\n- 2005.14165v4, page 23\n- 2005.14165v4, page 34\n- 2005.14165v4, page 9\n- 2005.14165v4, page 26\n\n*Confidence: High confidence*",
+      "sources": [
+        {
+          "paper": "2005.14165v4.pdf",
+          "page": 6,
+          "relevance": 0.9233452081680298
+        },
+        {
+          "paper": "2005.14165v4.pdf",
+          "page": 23,
+          "relevance": 0.9390594959259033
+        },
+        {
+          "paper": "2005.14165v4.pdf",
+          "page": 34,
+          "relevance": 0.9697232246398926
+        },
+        {
+          "paper": "2005.14165v4.pdf",
+          "page": 9,
+          "relevance": 0.9883447289466858
+        },
+        {
+          "paper": "2005.14165v4.pdf",
+          "page": 26,
+          "relevance": 0.9965903162956238
+        }
+      ],
+      "retrieved_count": 5,
+      "retrieval_time": 0.02688145637512207,
+      "generation_time": 0.3558073043823242,
+      "timestamp": "2026-03-05T15:50:11.039381",
+      "category": "gpt3",
+      "source_accuracy": 1.0
+    },
+    {
+      "query": "How does the retriever in RAG models work?",
+      "answer": "The retriever component `p(z|x)` in RAG models is based on DPR (Dense Passage Retrieval) [26] and follows a bi-encoder architecture (Document 4, Page 3). Specifically, it works as follows: 1. It uses a bi-encoder architecture where `d(z)` represents the embedding of a document `z` and `q(x)` represents the.\n\n**Sources:**\n- 2005.11401v4, page 10\n- 2005.11401v4, page 17\n- 2005.11401v4, page 19\n- 2005.11401v4, page 3\n- 2005.11401v4, page 5\n\n*Confidence: High confidence*",
+      "sources": [
+        {
+          "paper": "2005.11401v4.pdf",
+          "page": 10,
+          "relevance": 0.8038520812988281
+        },
+        {
+          "paper": "2005.11401v4.pdf",
+          "page": 17,
+          "relevance": 0.8048795461654663
+        },
+        {
+          "paper": "2005.11401v4.pdf",
+          "page": 19,
+          "relevance": 0.8144474625587463
+        },
+        {
+          "paper": "2005.11401v4.pdf",
+          "page": 3,
+          "relevance": 0.8967996835708618
+        },
+        {
+          "paper": "2005.11401v4.pdf",
+          "page": 5,
+          "relevance": 0.9121987223625183
+        }
+      ],
+      "retrieved_count": 5,
+      "retrieval_time": 0.023903846740722656,
+      "generation_time": 3.1981520652770996,
+      "timestamp": "2026-03-05T15:50:16.090178",
+      "category": "rag",
+      "source_accuracy": 1.0
+    },
+    {
+      "query": "What is the role of the decoder in the Transformer architecture?",
+      "answer": "The decoder in the Transformer architecture, introduced by Ashish Vaswani, Noam Shazeer.\n\n**Sources:**\n- 1706.03762v7, page 3\n- 1706.03762v7, page 2\n- 1706.03762v7, page 1\n\n*Confidence: High confidence*",
+      "sources": [
+        {
+          "paper": "1706.03762v7.pdf",
+          "page": 3,
+          "relevance": 0.7123681902885437
+        },
+        {
+          "paper": "1706.03762v7.pdf",
+          "page": 2,
+          "relevance": 0.8101268410682678
+        },
+        {
+          "paper": "1706.03762v7.pdf",
+          "page": 1,
+          "relevance": 1.02900230884552
+        }
+      ],
+      "retrieved_count": 5,
+      "retrieval_time": 0.025730133056640625,
+      "generation_time": 3.6699228286743164,
+      "timestamp": "2026-03-05T15:50:21.788619",
+      "category": "transformer",
+      "source_accuracy": 1.0
+    }
+  ],
+  "summary": {
+    "total_queries": 8,
+    "average_retrieval_time": 0.053941190242767334,
+    "average_generation_time": 1.6546826660633087,
+    "source_accuracy": 1.0,
+    "avg_retrieved_docs": null
+  }
+}

@@ -1,0 +1,17 @@
+Query: What is the role of the decoder in the Transformer architecture?
+================================================================================
+
+Answer: The decoder in the Transformer architecture, introduced by Ashish Vaswani, Noam Shazeer.
+
+**Sources:**
+- 1706.03762v7, page 3
+- 1706.03762v7, page 2
+- 1706.03762v7, page 1
+
+*Confidence: High confidence*
+
+================================================================================
+Sources:
+- 1706.03762v7.pdf (page 3, relevance: 0.712)
+- 1706.03762v7.pdf (page 2, relevance: 0.810)
+- 1706.03762v7.pdf (page 1, relevance: 1.029)
