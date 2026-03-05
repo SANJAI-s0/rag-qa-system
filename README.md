@@ -2,14 +2,11 @@
 
 # 🔍 RAG QA System for AI Research Papers
 
-<!-- Core Badges -->
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![Docker](https://img.shields.io/badge/docker-supported-blue)](https://www.docker.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)
 [![GitHub stars](https://img.shields.io/github/stars/SANJAI-s0/rag-qa-system)](https://github.com/SANJAI-s0/rag-qa-system/stargazers)
-
-<!-- Tech Stack Badges -->
 [![LangChain](https://img.shields.io/badge/🦜_LangChain-0.1.0-green)](https://www.langchain.com/)
 [![FAISS](https://img.shields.io/badge/🔍_FAISS-1.8.0-blue)](https://github.com/facebookresearch/faiss)
 [![Gemini](https://img.shields.io/badge/🤖_Gemini-2.5_flash-orange)](https://deepmind.google/technologies/gemini/)
@@ -17,8 +14,6 @@
 [![Pytest](https://img.shields.io/badge/🧪_pytest-7.4.4-green)]()
 [![Sentence Transformers](https://img.shields.io/badge/📊_sentence--transformers-2.2.2-blue)]()
 [![FAISS CPU](https://img.shields.io/badge/⚡_faiss--cpu-1.8.0-blue)]()
-
-<!-- Project Stats Badges -->
 [![Tests](https://img.shields.io/badge/✅_tests-9/9_passed-brightgreen)]()
 [![Coverage](https://img.shields.io/badge/📊_coverage-85%25-yellowgreen)]()
 [![Last Commit](https://img.shields.io/github/last-commit/SANJAI-s0/rag-qa-system)]()
@@ -26,14 +21,10 @@
 [![Issues](https://img.shields.io/github/issues/SANJAI-s0/rag-qa-system)]()
 [![Forks](https://img.shields.io/github/forks/SANJAI-s0/rag-qa-system)]()
 [![Contributors](https://img.shields.io/github/contributors/SANJAI-s0/rag-qa-system)]()
-
-<!-- Performance Badges -->
 [![Retrieval Time](https://img.shields.io/badge/⚡_retrieval-0.05s-brightgreen)]()
 [![Generation Time](https://img.shields.io/badge/🤖_generation-2-4s-yellow)]()
 [![Source Accuracy](https://img.shields.io/badge/📚_source_accuracy-100%25-brightgreen)]()
 [![Success Rate](https://img.shields.io/badge/🎯_success_rate-100%25-brightgreen)]()
-
-<!-- Paper Badges -->
 [![Transformer](https://img.shields.io/badge/📄_Transformer-2017-blue)]()
 [![RAG](https://img.shields.io/badge/📄_RAG-2020-green)]()
 [![GPT-3](https://img.shields.io/badge/📄_GPT--3-2020-orange)]()
