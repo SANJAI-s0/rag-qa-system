@@ -1,6 +1,3 @@
-# RAG QA System for AI Research Papers
-
-```markdown
 <div align="center">
 
 # 🔍 RAG QA System for AI Research Papers
@@ -8,13 +5,12 @@
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![Docker](https://img.shields.io/badge/docker-supported-blue)](https://www.docker.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)
 [![GitHub stars](https://img.shields.io/github/stars/SANJAI-s0/rag-qa-system)](https://github.com/SANJAI-s0/rag-qa-system/stargazers)
 
 **Ask questions about Transformer, RAG & GPT-3 papers - get answers with sources!**
 
 </div>
-```
 
 A powerful Retrieval-Augmented Generation (RAG) system that answers questions based on seminal AI research papers including the Transformer, RAG, and GPT-3 papers. The system combines dense retrieval with Google's Gemini LLM to provide accurate, context-aware answers with source attribution.
 
