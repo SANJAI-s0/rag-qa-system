@@ -1,0 +1,52 @@
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Data files (don't copy large data into image)
+data/raw/*.pdf
+data/processed/
+outputs/
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Notebooks
+notebooks/
+*.ipynb
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
