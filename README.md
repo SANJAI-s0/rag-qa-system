@@ -142,13 +142,13 @@ rag-qa-system/               # Root project folder
 
 ### Installation
 
-1. **Clone the repository**
+#### 1. **Clone the repository**
 ```bash
 git clone https://github.com/SANJAI-s0/rag-qa-system.git
 cd rag-qa-system
 ```
 
-2. **Create virtual environment**
+#### 2. **Create virtual environment**
 ```bash
 python -m venv .venv
 # Windows
@@ -157,27 +157,26 @@ python -m venv .venv
 source .venv/bin/activate
 ```
 
-3. **Install dependencies**
+#### 3. **Install dependencies**
 ```bash
 pip install -r requirements.txt
 ```
 
-4. **Set up environment variables**
+#### 4. **Set up environment variables**
 ```bash
 cp .env.example .env
 # Edit .env with your Gemini API key
 ```
 
-5. **Add PDF files**
-Place your research papers in `data/raw/` use the followinvg options to download and extract them or else skip this step download by using the following command and add manually in the `data/raw/` folder:
+#### 5. Add PDF files
 
-```
-| Paper       |Title of the file                                                   | Filename           | PDF Download Link                                  |
-|-------------|--------------------------------------------------------------------|--------------------|----------------------------------------------------|
-| Transformer | *Attention Is All You Need*                                        | `1706.03762v7.pdf` | [Download](https://arxiv.org/pdf/1706.03762v7.pdf) |
-| RAG         | *Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks* | `2005.11401v4.pdf` | [Download](https://arxiv.org/pdf/2005.11401v4.pdf) |
-| GPT-3       | *Language Models are Few-Shot Learners*                            | `2005.14165v4.pdf` | [Download](https://arxiv.org/pdf/2005.14165v4.pdf) |
-```
+Place your research papers in `data/raw/`. Use the following links to download them, or skip this step and manually add the files into the `data/raw/` folder.
+
+| Paper | Title of the File | Filename | PDF Download Link |
+|------|-------------------|----------|------------------|
+| Transformer | *Attention Is All You Need* | `1706.03762v7.pdf` | [Download](https://arxiv.org/pdf/1706.03762v7.pdf) |
+| RAG | *Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks* | `2005.11401v4.pdf` | [Download](https://arxiv.org/pdf/2005.11401v4.pdf) |
+| GPT-3 | *Language Models are Few-Shot Learners* | `2005.14165v4.pdf` | [Download](https://arxiv.org/pdf/2005.14165v4.pdf) |
 
 **Download Research Papers**
 
