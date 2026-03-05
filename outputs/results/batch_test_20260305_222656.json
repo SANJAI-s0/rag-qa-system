@@ -1,0 +1,280 @@
+{
+  "test_config": {
+    "total_queries": 8,
+    "model": "gemini-2.5-flash",
+    "top_k": 5
+  },
+  "results": [
+    {
+      "question": "What is the Transformer architecture?",
+      "category": "transformer",
+      "difficulty": "basic",
+      "answer": "Error generating answer: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 9.096697296s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '9s'}]}}.\n\n**Sources:**\n- 1706.03762v7, page 3\n- 1706.03762v7, page 2\n- 1706.03762v7, page 1\n- 1706.03762v7, page 8",
+      "sources": [
+        {
+          "paper": "1706.03762v7.pdf",
+          "page": 3,
+          "relevance": 0.77301424741745
+        },
+        {
+          "paper": "1706.03762v7.pdf",
+          "page": 2,
+          "relevance": 0.9208365678787231
+        },
+        {
+          "paper": "1706.03762v7.pdf",
+          "page": 1,
+          "relevance": 0.950803279876709
+        },
+        {
+          "paper": "1706.03762v7.pdf",
+          "page": 8,
+          "relevance": 1.038999080657959
+        }
+      ],
+      "retrieval_time": 0.24424052238464355,
+      "generation_time": 0.3691892623901367,
+      "num_docs": 5,
+      "timestamp": "2026-03-05T22:26:53.526112"
+    },
+    {
+      "question": "How does attention mechanism work?",
+      "category": "transformer",
+      "difficulty": "intermediate",
+      "answer": "Error generating answer: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 8.602929965s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '8s'}]}}.\n\n**Sources:**\n- 1706.03762v7, page 13\n- 1706.03762v7, page 15\n- 1706.03762v7, page 7\n- 1706.03762v7, page 3\n- 1706.03762v7, page 2",
+      "sources": [
+        {
+          "paper": "1706.03762v7.pdf",
+          "page": 13,
+          "relevance": 0.668483316898346
+        },
+        {
+          "paper": "1706.03762v7.pdf",
+          "page": 15,
+          "relevance": 0.709113597869873
+        },
+        {
+          "paper": "1706.03762v7.pdf",
+          "page": 7,
+          "relevance": 0.7494709491729736
+        },
+        {
+          "paper": "1706.03762v7.pdf",
+          "page": 3,
+          "relevance": 0.7815816402435303
+        },
+        {
+          "paper": "1706.03762v7.pdf",
+          "page": 2,
+          "relevance": 0.783420741558075
+        }
+      ],
+      "retrieval_time": 0.09449529647827148,
+      "generation_time": 0.5015146732330322,
+      "num_docs": 5,
+      "timestamp": "2026-03-05T22:26:54.122122"
+    },
+    {
+      "question": "What are the benefits of multi-head attention?",
+      "category": "transformer",
+      "difficulty": "advanced",
+      "answer": "Error generating answer: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 8.11776339s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '8s'}]}}.\n\n**Sources:**\n- 1706.03762v7, page 2\n- 1706.03762v7, page 5\n- 1706.03762v7, page 15\n- 1706.03762v7, page 14",
+      "sources": [
+        {
+          "paper": "1706.03762v7.pdf",
+          "page": 2,
+          "relevance": 0.6806876063346863
+        },
+        {
+          "paper": "1706.03762v7.pdf",
+          "page": 5,
+          "relevance": 0.7736430168151855
+        },
+        {
+          "paper": "1706.03762v7.pdf",
+          "page": 15,
+          "relevance": 0.8493015766143799
+        },
+        {
+          "paper": "1706.03762v7.pdf",
+          "page": 14,
+          "relevance": 0.9459870457649231
+        }
+      ],
+      "retrieval_time": 0.019680500030517578,
+      "generation_time": 0.38518357276916504,
+      "num_docs": 5,
+      "timestamp": "2026-03-05T22:26:54.526986"
+    },
+    {
+      "question": "Explain the training process of GPT-3",
+      "category": "gpt3",
+      "difficulty": "advanced",
+      "answer": "Error generating answer: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 7.710648003s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '7s'}]}}.\n\n**Sources:**\n- 2005.14165v4, page 6\n- 2005.14165v4, page 31\n- 2005.14165v4, page 34\n- 2005.14165v4, page 33",
+      "sources": [
+        {
+          "paper": "2005.14165v4.pdf",
+          "page": 6,
+          "relevance": 0.6302863955497742
+        },
+        {
+          "paper": "2005.14165v4.pdf",
+          "page": 31,
+          "relevance": 0.7786945104598999
+        },
+        {
+          "paper": "2005.14165v4.pdf",
+          "page": 34,
+          "relevance": 0.7815355658531189
+        },
+        {
+          "paper": "2005.14165v4.pdf",
+          "page": 33,
+          "relevance": 0.8217646479606628
+        }
+      ],
+      "retrieval_time": 0.020893573760986328,
+      "generation_time": 0.34554266929626465,
+      "num_docs": 5,
+      "timestamp": "2026-03-05T22:26:54.893422"
+    },
+    {
+      "question": "What is the difference between RAG-Sequence and RAG-Token?",
+      "category": "rag",
+      "difficulty": "intermediate",
+      "answer": "Error generating answer: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 7.35141741s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '7s'}]}}.\n\n**Sources:**\n- 2005.11401v4, page 8\n- 2005.11401v4, page 3\n- 2005.11401v4, page 6\n- 2005.11401v4, page 4",
+      "sources": [
+        {
+          "paper": "2005.11401v4.pdf",
+          "page": 8,
+          "relevance": 0.7799844145774841
+        },
+        {
+          "paper": "2005.11401v4.pdf",
+          "page": 3,
+          "relevance": 0.8255220651626587
+        },
+        {
+          "paper": "2005.11401v4.pdf",
+          "page": 6,
+          "relevance": 0.9147850275039673
+        },
+        {
+          "paper": "2005.11401v4.pdf",
+          "page": 4,
+          "relevance": 0.9804168343544006
+        }
+      ],
+      "retrieval_time": 0.018929004669189453,
+      "generation_time": 0.35645341873168945,
+      "num_docs": 5,
+      "timestamp": "2026-03-05T22:26:55.269719"
+    },
+    {
+      "question": "How does positional encoding help Transformers understand word order?",
+      "category": "transformer",
+      "difficulty": "intermediate",
+      "answer": "Error generating answer: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 6.960828452s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '6s'}]}}.\n\n**Sources:**\n- 1706.03762v7, page 8\n- 1706.03762v7, page 9\n- 1706.03762v7, page 2\n- 2005.14165v4, page 68",
+      "sources": [
+        {
+          "paper": "1706.03762v7.pdf",
+          "page": 8,
+          "relevance": 0.8216596841812134
+        },
+        {
+          "paper": "1706.03762v7.pdf",
+          "page": 9,
+          "relevance": 0.8548763990402222
+        },
+        {
+          "paper": "1706.03762v7.pdf",
+          "page": 2,
+          "relevance": 0.9372680187225342
+        },
+        {
+          "paper": "2005.14165v4.pdf",
+          "page": 68,
+          "relevance": 0.9475635290145874
+        }
+      ],
+      "retrieval_time": 0.016557931900024414,
+      "generation_time": 0.3694179058074951,
+      "num_docs": 5,
+      "timestamp": "2026-03-05T22:26:55.655695"
+    },
+    {
+      "question": "What are the limitations of GPT-3 according to the paper?",
+      "category": "gpt3",
+      "difficulty": "advanced",
+      "answer": "Error generating answer: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 6.585560013s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '6s'}]}}.\n\n**Sources:**\n- 2005.14165v4, page 23\n- 2005.14165v4, page 34\n- 2005.14165v4, page 31\n- 2005.14165v4, page 14\n- 2005.14165v4, page 36",
+      "sources": [
+        {
+          "paper": "2005.14165v4.pdf",
+          "page": 23,
+          "relevance": 0.7259559631347656
+        },
+        {
+          "paper": "2005.14165v4.pdf",
+          "page": 34,
+          "relevance": 0.7714146375656128
+        },
+        {
+          "paper": "2005.14165v4.pdf",
+          "page": 31,
+          "relevance": 0.8163936138153076
+        },
+        {
+          "paper": "2005.14165v4.pdf",
+          "page": 14,
+          "relevance": 0.8236631155014038
+        },
+        {
+          "paper": "2005.14165v4.pdf",
+          "page": 36,
+          "relevance": 0.840888500213623
+        }
+      ],
+      "retrieval_time": 0.016719818115234375,
+      "generation_time": 0.3482186794281006,
+      "num_docs": 5,
+      "timestamp": "2026-03-05T22:26:56.020633"
+    },
+    {
+      "question": "Compare the training costs of different models discussed in the papers",
+      "category": "comparative",
+      "difficulty": "advanced",
+      "answer": "Error generating answer: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 6.225326621s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '6s'}]}}.\n\n**Sources:**\n- 2005.14165v4, page 42\n- 2005.14165v4, page 39\n- 2005.14165v4, page 10\n- 2005.14165v4, page 3",
+      "sources": [
+        {
+          "paper": "2005.14165v4.pdf",
+          "page": 42,
+          "relevance": 0.8625636100769043
+        },
+        {
+          "paper": "2005.14165v4.pdf",
+          "page": 39,
+          "relevance": 0.9380406141281128
+        },
+        {
+          "paper": "2005.14165v4.pdf",
+          "page": 10,
+          "relevance": 0.9578315019607544
+        },
+        {
+          "paper": "2005.14165v4.pdf",
+          "page": 3,
+          "relevance": 0.9885786175727844
+        }
+      ],
+      "retrieval_time": 0.018566131591796875,
+      "generation_time": 0.35177087783813477,
+      "num_docs": 5,
+      "timestamp": "2026-03-05T22:26:56.390970"
+    }
+  ],
+  "summary": {
+    "avg_retrieval_time": 0.05626034736633301,
+    "avg_generation_time": 0.3784113824367523,
+    "success_rate": 100.0
+  }
+}

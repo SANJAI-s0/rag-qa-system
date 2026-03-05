@@ -1,0 +1,280 @@
+{
+  "test_config": {
+    "total_queries": 8,
+    "model": "gemini-2.5-flash",
+    "top_k": 5
+  },
+  "results": [
+    {
+      "question": "What is the Transformer architecture?",
+      "category": "transformer",
+      "difficulty": "basic",
+      "answer": "The Transformer is a novel neural network architecture introduced by Ashish Vaswani, Noam Shaze.\n\n**Sources:**\n- 1706.03762v7, page 3\n- 1706.03762v7, page 2\n- 1706.03762v7, page 1\n- 1706.03762v7, page 8",
+      "sources": [
+        {
+          "paper": "1706.03762v7.pdf",
+          "page": 3,
+          "relevance": 0.77301424741745
+        },
+        {
+          "paper": "1706.03762v7.pdf",
+          "page": 2,
+          "relevance": 0.9208365678787231
+        },
+        {
+          "paper": "1706.03762v7.pdf",
+          "page": 1,
+          "relevance": 0.950803279876709
+        },
+        {
+          "paper": "1706.03762v7.pdf",
+          "page": 8,
+          "relevance": 1.038999080657959
+        }
+      ],
+      "retrieval_time": 0.24961638450622559,
+      "generation_time": 4.240856409072876,
+      "num_docs": 5,
+      "timestamp": "2026-03-05T22:16:45.034211"
+    },
+    {
+      "question": "How does attention mechanism work?",
+      "category": "transformer",
+      "difficulty": "intermediate",
+      "answer": "An attention function maps a query and a set of key-value pairs to an output.\n\n**Sources:**\n- 1706.03762v7, page 13\n- 1706.03762v7, page 15\n- 1706.03762v7, page 7\n- 1706.03762v7, page 3\n- 1706.03762v7, page 2",
+      "sources": [
+        {
+          "paper": "1706.03762v7.pdf",
+          "page": 13,
+          "relevance": 0.668483316898346
+        },
+        {
+          "paper": "1706.03762v7.pdf",
+          "page": 15,
+          "relevance": 0.709113597869873
+        },
+        {
+          "paper": "1706.03762v7.pdf",
+          "page": 7,
+          "relevance": 0.7494709491729736
+        },
+        {
+          "paper": "1706.03762v7.pdf",
+          "page": 3,
+          "relevance": 0.7815816402435303
+        },
+        {
+          "paper": "1706.03762v7.pdf",
+          "page": 2,
+          "relevance": 0.783420741558075
+        }
+      ],
+      "retrieval_time": 0.02696537971496582,
+      "generation_time": 3.676309585571289,
+      "num_docs": 5,
+      "timestamp": "2026-03-05T22:16:48.738499"
+    },
+    {
+      "question": "What are the benefits of multi-head attention?",
+      "category": "transformer",
+      "difficulty": "advanced",
+      "answer": "Multi-head attention offers several benefits: 1. It counteracts the reduced effective resolution that occurs due to averaging attention-weighted positions in single-head attention (Document 1, Page 2). 2. It allows the model to jointly attend to information from different representation subspaces at different positions, which is inhibited by averaging with a single attention head (Document 4, Page 5). 3. Despite employing multiple parallel attention layers (heads), the total computational cost is similar to that of single-head attention with full dimensionality, due to the reduced dimension of each head (Document 2, Page 5). 4. Different attention heads can learn to perform different tasks, such as exhibiting behavior related to sentence structure or being involved in anaphora resolution (Document 3, Page 15; Document 5, Page 14).\n\n**Sources:**\n- 1706.03762v7, page 2\n- 1706.03762v7, page 5\n- 1706.03762v7, page 15\n- 1706.03762v7, page 14",
+      "sources": [
+        {
+          "paper": "1706.03762v7.pdf",
+          "page": 2,
+          "relevance": 0.6806876063346863
+        },
+        {
+          "paper": "1706.03762v7.pdf",
+          "page": 5,
+          "relevance": 0.7736430168151855
+        },
+        {
+          "paper": "1706.03762v7.pdf",
+          "page": 15,
+          "relevance": 0.8493015766143799
+        },
+        {
+          "paper": "1706.03762v7.pdf",
+          "page": 14,
+          "relevance": 0.9459870457649231
+        }
+      ],
+      "retrieval_time": 0.026714801788330078,
+      "generation_time": 3.307432174682617,
+      "num_docs": 5,
+      "timestamp": "2026-03-05T22:16:52.074638"
+    },
+    {
+      "question": "Explain the training process of GPT-3",
+      "category": "gpt3",
+      "difficulty": "advanced",
+      "answer": "The training process of GPT-3, as described in the paper \"Language Models are Few-.\n\n**Sources:**\n- 2005.14165v4, page 6\n- 2005.14165v4, page 31\n- 2005.14165v4, page 34\n- 2005.14165v4, page 33",
+      "sources": [
+        {
+          "paper": "2005.14165v4.pdf",
+          "page": 6,
+          "relevance": 0.6302863955497742
+        },
+        {
+          "paper": "2005.14165v4.pdf",
+          "page": 31,
+          "relevance": 0.7786945104598999
+        },
+        {
+          "paper": "2005.14165v4.pdf",
+          "page": 34,
+          "relevance": 0.7815355658531189
+        },
+        {
+          "paper": "2005.14165v4.pdf",
+          "page": 33,
+          "relevance": 0.8217646479606628
+        }
+      ],
+      "retrieval_time": 0.023718833923339844,
+      "generation_time": 3.819199323654175,
+      "num_docs": 5,
+      "timestamp": "2026-03-05T22:16:55.917556"
+    },
+    {
+      "question": "What is the difference between RAG-Sequence and RAG-Token?",
+      "category": "rag",
+      "difficulty": "intermediate",
+      "answer": "Error generating answer: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 6.502647834s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '6s'}]}}.\n\n**Sources:**\n- 2005.11401v4, page 8\n- 2005.11401v4, page 3\n- 2005.11401v4, page 6\n- 2005.11401v4, page 4",
+      "sources": [
+        {
+          "paper": "2005.11401v4.pdf",
+          "page": 8,
+          "relevance": 0.7799844145774841
+        },
+        {
+          "paper": "2005.11401v4.pdf",
+          "page": 3,
+          "relevance": 0.8255220651626587
+        },
+        {
+          "paper": "2005.11401v4.pdf",
+          "page": 6,
+          "relevance": 0.9147850275039673
+        },
+        {
+          "paper": "2005.11401v4.pdf",
+          "page": 4,
+          "relevance": 0.9804168343544006
+        }
+      ],
+      "retrieval_time": 0.02823615074157715,
+      "generation_time": 0.4730820655822754,
+      "num_docs": 5,
+      "timestamp": "2026-03-05T22:16:56.423873"
+    },
+    {
+      "question": "How does positional encoding help Transformers understand word order?",
+      "category": "transformer",
+      "difficulty": "intermediate",
+      "answer": "Error generating answer: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 5.964136871s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '5s'}]}}.\n\n**Sources:**\n- 1706.03762v7, page 8\n- 1706.03762v7, page 9\n- 1706.03762v7, page 2\n- 2005.14165v4, page 68",
+      "sources": [
+        {
+          "paper": "1706.03762v7.pdf",
+          "page": 8,
+          "relevance": 0.8216596841812134
+        },
+        {
+          "paper": "1706.03762v7.pdf",
+          "page": 9,
+          "relevance": 0.8548763990402222
+        },
+        {
+          "paper": "1706.03762v7.pdf",
+          "page": 2,
+          "relevance": 0.9372680187225342
+        },
+        {
+          "paper": "2005.14165v4.pdf",
+          "page": 68,
+          "relevance": 0.9475635290145874
+        }
+      ],
+      "retrieval_time": 0.027886152267456055,
+      "generation_time": 0.40728020668029785,
+      "num_docs": 5,
+      "timestamp": "2026-03-05T22:16:56.860225"
+    },
+    {
+      "question": "What are the limitations of GPT-3 according to the paper?",
+      "category": "gpt3",
+      "difficulty": "advanced",
+      "answer": "Error generating answer: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 5.539645977s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '5s'}]}}.\n\n**Sources:**\n- 2005.14165v4, page 23\n- 2005.14165v4, page 34\n- 2005.14165v4, page 31\n- 2005.14165v4, page 14\n- 2005.14165v4, page 36",
+      "sources": [
+        {
+          "paper": "2005.14165v4.pdf",
+          "page": 23,
+          "relevance": 0.7259559631347656
+        },
+        {
+          "paper": "2005.14165v4.pdf",
+          "page": 34,
+          "relevance": 0.7714146375656128
+        },
+        {
+          "paper": "2005.14165v4.pdf",
+          "page": 31,
+          "relevance": 0.8163936138153076
+        },
+        {
+          "paper": "2005.14165v4.pdf",
+          "page": 14,
+          "relevance": 0.8236631155014038
+        },
+        {
+          "paper": "2005.14165v4.pdf",
+          "page": 36,
+          "relevance": 0.840888500213623
+        }
+      ],
+      "retrieval_time": 0.025488615036010742,
+      "generation_time": 0.3834519386291504,
+      "num_docs": 5,
+      "timestamp": "2026-03-05T22:16:57.269165"
+    },
+    {
+      "question": "Compare the training costs of different models discussed in the papers",
+      "category": "comparative",
+      "difficulty": "advanced",
+      "answer": "Error generating answer: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 5.108269459s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '5s'}]}}.\n\n**Sources:**\n- 2005.14165v4, page 42\n- 2005.14165v4, page 39\n- 2005.14165v4, page 10\n- 2005.14165v4, page 3",
+      "sources": [
+        {
+          "paper": "2005.14165v4.pdf",
+          "page": 42,
+          "relevance": 0.8625636100769043
+        },
+        {
+          "paper": "2005.14165v4.pdf",
+          "page": 39,
+          "relevance": 0.9380406141281128
+        },
+        {
+          "paper": "2005.14165v4.pdf",
+          "page": 10,
+          "relevance": 0.9578315019607544
+        },
+        {
+          "paper": "2005.14165v4.pdf",
+          "page": 3,
+          "relevance": 0.9885786175727844
+        }
+      ],
+      "retrieval_time": 0.02688908576965332,
+      "generation_time": 0.551563024520874,
+      "num_docs": 5,
+      "timestamp": "2026-03-05T22:16:57.847617"
+    }
+  ],
+  "summary": {
+    "avg_retrieval_time": 0.054439425468444824,
+    "avg_generation_time": 2.1073968410491943,
+    "success_rate": 100.0
+  }
+}
